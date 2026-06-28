@@ -1,6 +1,0 @@
-{
-    "pack": {
-        "pack_format": 48,
-        "description": "Spawn a wither once as soon as a player steps on endstone"
-    }
-}
