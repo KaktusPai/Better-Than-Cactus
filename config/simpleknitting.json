@@ -1,0 +1,102 @@
+{
+  "recipes": [
+    {
+      "input": "minecraft:white_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:white_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:orange_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:orange_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:magenta_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:magenta_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:light_blue_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:light_blue_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:yellow_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:yellow_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:lime_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:lime_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:pink_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:pink_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:gray_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:gray_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:light_gray_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:light_gray_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:cyan_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:cyan_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:purple_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:purple_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:blue_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:blue_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:brown_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:brown_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:green_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:green_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:red_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:red_wool_knit",
+      "outputCount": 1
+    },
+    {
+      "input": "minecraft:black_wool",
+      "inputCount": 1,
+      "output": "self_sustainable:black_wool_knit",
+      "outputCount": 1
+    }
+  ],
+  "useTimeSeconds": 3.0,
+  "maxDurability": 16
+}

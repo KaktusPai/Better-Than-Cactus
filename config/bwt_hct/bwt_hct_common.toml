@@ -1,0 +1,13 @@
+# Reverts Buddy Block neighbor update behavior so that it works
+#  in the same way as it does in the original Better Than Wolves mod
+# Default: true
+oldSchoolBuddyBlockNeighborUpdate = true
+
+# Changes Block Dispensers to require strong redstone power to activate
+# Default: true
+blockDispenserRequiringStrongPower = true
+
+# Set a custom sawing speed for the Saw Block (in ticks). Default 20. BWT default - 15
+# Default: 20
+sawBlockBreakSpeed = 20
+

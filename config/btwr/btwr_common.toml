@@ -1,0 +1,21 @@
+# Disables knockback if not using a suitable weapon
+# Default: true
+knockbackRestrictions = true
+
+# Can baby zombies spawn naturally?
+# Default: false
+spawnBabyZombies = false
+
+# Can mobs spawn on wooden blocks?
+# Default: false
+spawnMobsOnWood = false
+
+# Slightly increase the number of mobs that can spawn per chunk
+# Default: true
+increasedMonsterSpawnsPerChunk = true
+
+# Changes the location of creeper's explosion origin to
+#  be calculated from their eyes instead of their feet
+# Default: true
+changedCreeperExplosionPos = true
+

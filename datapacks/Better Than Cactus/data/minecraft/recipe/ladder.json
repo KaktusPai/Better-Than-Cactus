@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "bsb",
+    "bbb",
+    "bsb"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "tag": "btc:string_materials"
+    }
+  },
+  "result": {
+    "id": "minecraft:ladder",
+    "count": 2
+  }
+}

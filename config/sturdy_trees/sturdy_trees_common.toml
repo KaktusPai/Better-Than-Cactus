@@ -1,0 +1,4 @@
+# Toggles whether saplings are fertilizable in the normal manner
+# Default: false
+saplingsFertilizable = false
+

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "hybrid-aquatic:driftwood_log_wood"
+    }
+  ],
+  "result": {
+    "id": "hybrid-aquatic:driftwood_planks",
+    "count": 2
+  }
+}

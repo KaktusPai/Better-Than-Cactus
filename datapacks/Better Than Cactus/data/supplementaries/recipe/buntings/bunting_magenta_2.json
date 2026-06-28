@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "sss",
+    "ttt",
+    " t "
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:magenta_wool"
+    },
+    "s": {
+      "tag": "btc:string_materials"
+    }
+  },
+  "result": {
+    "id": "supplementaries:bunting_magenta",
+    "count": 6
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Soulified EnderZoology Addon - Requires EnderZoology mod and Soulified Vanilla base pack",
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 48
+    }
+  }
+}

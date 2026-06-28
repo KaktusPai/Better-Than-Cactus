@@ -1,0 +1,2 @@
+# Check predicate for any player who entered the nether
+execute if entity @a[predicate=witherinend:has_player_stepped_on_endstone] unless score #enabled witherify_state matches 1 run function witherinend:run_once

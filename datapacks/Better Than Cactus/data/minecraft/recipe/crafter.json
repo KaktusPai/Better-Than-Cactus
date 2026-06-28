@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "imi",
+    "ili",
+    "rdr"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "l": {
+      "tag": "minecraft:logs"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "minecraft:dropper"
+    },
+    "m": {
+      "item": "bwt:hopper"
+    }
+  },
+  "result": {
+    "id": "minecraft:crafter",
+    "count": 1
+  }
+}

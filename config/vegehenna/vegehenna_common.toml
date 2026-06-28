@@ -1,0 +1,4 @@
+# Toggles whether weeds can grow on crops/farmland
+# Default: false
+canWeedsGrow = false
+

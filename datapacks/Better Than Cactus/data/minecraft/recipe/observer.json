@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "lll",
+    "ddc",
+    "lll"
+  ],
+  "key": {
+    "l": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "id": "minecraft:observer"
+  }
+}

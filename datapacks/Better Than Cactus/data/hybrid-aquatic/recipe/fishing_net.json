@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "  b",
+    " sb",
+    "s  "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "tag": "btc:string_materials"
+    }
+  },
+  "result": {
+    "id": "hybrid-aquatic:fishing_net"
+  }
+}

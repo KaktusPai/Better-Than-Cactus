@@ -1,0 +1,154 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <!-- Ominous background gradient - deep crimson to pitch black -->
+    <radialGradient id="bgGradient" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#2d0a0a;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#1a0505;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </radialGradient>
+    
+    <!-- Intense eye glow -->
+    <radialGradient id="eyeGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#cc0000;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#660000;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Purple soul energy -->
+    <radialGradient id="soulGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#b366ff;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#7d00cc;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#4d0080;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Fiery aura -->
+    <radialGradient id="fireGlow" cx="50%" cy="70%">
+      <stop offset="0%" style="stop-color:#ff3300;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#ff6600;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Pitch black background with crimson vignette -->
+  <rect width="64" height="64" fill="url(#bgGradient)"/>
+  
+  <!-- Fire glow from bottom -->
+  <ellipse cx="32" cy="56" rx="28" ry="18" fill="url(#fireGlow)" opacity="0.8"/>
+  
+  <!-- MASSIVE CREEPER SKULL - centered and menacing -->
+  <!-- Skull structure - more angular and blocky (Minecraft style but DARK) -->
+  <rect x="16" y="16" width="32" height="36" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+  
+  <!-- Darker skull shading for depth -->
+  <rect x="18" y="18" width="28" height="32" fill="#0f0f0f"/>
+  
+  <!-- Cracks in the skull -->
+  <path d="M 20,20 L 22,24" stroke="#050505" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 44,22 L 42,26" stroke="#050505" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 32,18 L 32,24" stroke="#050505" stroke-width="1" opacity="0.6"/>
+  
+  <!-- GLOWING RED EYES - intense and piercing -->
+  <!-- Left eye socket base -->
+  <rect x="20" y="24" width="8" height="12" fill="#1a0000"/>
+  <!-- Left eye glow layers -->
+  <ellipse cx="24" cy="30" rx="5" ry="8" fill="url(#eyeGlow)" opacity="0.9"/>
+  <rect x="21" y="26" width="6" height="8" fill="#ff0000" opacity="0.95"/>
+  <rect x="22" y="27" width="4" height="6" fill="#ff3333" opacity="1"/>
+  <rect x="23" y="28" width="2" height="4" fill="#ff6666" opacity="1"/>
+  <!-- Eye highlight/shine -->
+  <rect x="23" y="28" width="1" height="2" fill="#ffaaaa" opacity="1"/>
+  
+  <!-- Right eye socket base -->
+  <rect x="36" y="24" width="8" height="12" fill="#1a0000"/>
+  <!-- Right eye glow layers -->
+  <ellipse cx="40" cy="30" rx="5" ry="8" fill="url(#eyeGlow)" opacity="0.9"/>
+  <rect x="37" y="26" width="6" height="8" fill="#ff0000" opacity="0.95"/>
+  <rect x="38" y="27" width="4" height="6" fill="#ff3333" opacity="1"/>
+  <rect x="39" y="28" width="2" height="4" fill="#ff6666" opacity="1"/>
+  <!-- Eye highlight/shine -->
+  <rect x="40" y="28" width="1" height="2" fill="#ffaaaa" opacity="1"/>
+  
+  <!-- Ominous mouth/nose (creeper-style but darker) -->
+  <rect x="30" y="32" width="4" height="8" fill="#0a0a0a"/>
+  <rect x="28" y="34" width="2" height="6" fill="#0a0a0a"/>
+  <rect x="34" y="34" width="2" height="6" fill="#0a0a0a"/>
+  
+  <!-- Jagged teeth/dark mouth opening -->
+  <rect x="22" y="42" width="6" height="6" fill="#050505"/>
+  <rect x="28" y="40" width="8" height="8" fill="#000000"/>
+  <rect x="36" y="42" width="6" height="6" fill="#050505"/>
+  
+  <!-- Teeth details -->
+  <rect x="28" y="44" width="2" height="3" fill="#1a1a1a"/>
+  <rect x="34" y="44" width="2" height="3" fill="#1a1a1a"/>
+  
+  <!-- Purple soul energy emanating from skull -->
+  <ellipse cx="32" cy="32" rx="20" ry="22" fill="url(#soulGlow)" opacity="0.4"/>
+  
+  <!-- Floating soul particles around the skull -->
+  <circle cx="12" cy="28" r="1.5" fill="#b366ff" opacity="0.8">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="52" cy="26" r="1.5" fill="#9933ff" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="14" cy="42" r="1" fill="#cc66ff" opacity="0.6">
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="40" r="1" fill="#aa55ff" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Embers/fire particles rising from bottom -->
+  <rect x="10" y="54" width="1.5" height="1.5" fill="#ff6600" opacity="0.9">
+    <animate attributeName="y" values="54;44;34" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.5;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="24" y="56" width="1.5" height="1.5" fill="#ff3300" opacity="0.8">
+    <animate attributeName="y" values="56;46;36" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.4;0" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="40" y="55" width="1.5" height="1.5" fill="#ff5500" opacity="0.85">
+    <animate attributeName="y" values="55;45;35" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.85;0.45;0" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="52" y="54" width="1.5" height="1.5" fill="#ff4400" opacity="0.9">
+    <animate attributeName="y" values="54;44;34" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.5;0" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Creeping shadows in corners -->
+  <polygon points="0,0 12,0 0,12" fill="#000000" opacity="0.8"/>
+  <polygon points="64,0 52,0 64,12" fill="#000000" opacity="0.8"/>
+  <polygon points="0,64 0,52 12,64" fill="#000000" opacity="0.7"/>
+  <polygon points="64,64 64,52 52,64" fill="#000000" opacity="0.7"/>
+  
+  <!-- Watching eyes in shadows (top corners) -->
+  <circle cx="6" cy="6" r="1.5" fill="#ff0000" opacity="0.9">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="9" cy="7" r="1.5" fill="#ff0000" opacity="0.85">
+    <animate attributeName="opacity" values="0.35;0.85;0.35" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="58" cy="6" r="1.5" fill="#ff0000" opacity="0.9">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="55" cy="7" r="1.5" fill="#ff0000" opacity="0.85">
+    <animate attributeName="opacity" values="0.45;0.85;0.45" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Ominous bottom glow with more watching eyes -->
+  <circle cx="6" cy="58" r="2" fill="#ff0000" opacity="0.95">
+    <animate attributeName="opacity" values="0.5;0.95;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="6" cy="58" r="1" fill="#ffff00" opacity="1"/>
+  
+  <circle cx="58" cy="58" r="2" fill="#ff0000" opacity="0.95">
+    <animate attributeName="opacity" values="0.6;0.95;0.6" dur="2.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="58" cy="58" r="1" fill="#ffff00" opacity="1"/>
+  
+  <!-- Border vignette for dramatic effect -->
+  <rect x="0" y="0" width="64" height="64" fill="none" stroke="#000000" stroke-width="2" opacity="0.5"/>
+</svg>

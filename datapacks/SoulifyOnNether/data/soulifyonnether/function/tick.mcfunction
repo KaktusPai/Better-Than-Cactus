@@ -1,0 +1,2 @@
+# Check predicate for any player who entered the nether
+execute if entity @a[predicate=soulifyonnether:has_player_entered_nether] unless score #enabled soulify_state matches 1 run function soulifyonnether:run_once

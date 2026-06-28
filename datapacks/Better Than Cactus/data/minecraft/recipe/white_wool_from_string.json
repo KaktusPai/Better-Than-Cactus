@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "qqq",
+    "qqq",
+    "qqq"
+  ],
+  "key": {
+    "q": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "id": "minecraft:white_wool"
+  }
+}

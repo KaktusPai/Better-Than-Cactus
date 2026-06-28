@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "s",
+    "l"
+  ],
+  "key": {
+    "l": {
+      "item": "tough_environment:cobblestone_loose"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:lever",
+    "count": 1
+  }
+}

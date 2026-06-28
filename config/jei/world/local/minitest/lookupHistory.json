@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:white_wool"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"self_sustainable:white_wool_knit"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simpleknitting:knitting"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"nomads_rest:white_bedroll"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:white_bed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bwt:fabric"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bwt:padding"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"self_sustainable:knitting_needles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crafter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:copper_door"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

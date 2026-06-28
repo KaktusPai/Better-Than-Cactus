@@ -1,0 +1,1 @@
+execute as @e[type=#att:spiders] at @s run function att:spider/tick

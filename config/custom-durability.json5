@@ -1,0 +1,427 @@
+{
+	// Default: 59
+	"ToolsWooden": {
+		"durabilityForWoodenSword": 59,
+		"durabilityForWoodenShovel": 59,
+		"durabilityForWoodenPickaxe": 59,
+		"durabilityForWoodenAxe": 59,
+		"durabilityForWoodenHoe": 59,
+		"unbreakableWoodenSword": false,
+		"unbreakableWoodenShovel": false,
+		"unbreakableWoodenPickaxe": false,
+		"unbreakableWoodenAxe": false,
+		"unbreakableWoodenHoe": false
+	},
+	// Default: 131
+	"ToolsStone": {
+		"durabilityForStoneSword": 50,
+		"durabilityForStoneShovel": 50,
+		"durabilityForStonePickaxe": 50,
+		"durabilityForStoneAxe": 50,
+		"durabilityForStoneHoe": 50,
+		"unbreakableStoneSword": false,
+		"unbreakableStoneShovel": false,
+		"unbreakableStonePickaxe": false,
+		"unbreakableStoneAxe": false,
+		"unbreakableStoneHoe": false
+	},
+	// Default: 250
+	"ToolsIron": {
+		"durabilityForIronSword": 500,
+		"durabilityForIronShovel": 500,
+		"durabilityForIronPickaxe": 500,
+		"durabilityForIronAxe": 500,
+		"durabilityForIronHoe": 500,
+		"unbreakableIronSword": false,
+		"unbreakableIronShovel": false,
+		"unbreakableIronPickaxe": false,
+		"unbreakableIronAxe": false,
+		"unbreakableIronHoe": false
+	},
+	// Default: 32
+	"ToolsGolden": {
+		"durabilityForGoldenSword": 32,
+		"durabilityForGoldenShovel": 32,
+		"durabilityForGoldenPickaxe": 32,
+		"durabilityForGoldenAxe": 32,
+		"durabilityForGoldenHoe": 32,
+		"unbreakableGoldenSword": false,
+		"unbreakableGoldenShovel": false,
+		"unbreakableGoldenPickaxe": false,
+		"unbreakableGoldenAxe": false,
+		"unbreakableGoldenHoe": false
+	},
+	// Default: 1561
+	"ToolsDiamond": {
+		"durabilityForDiamondSword": 1561,
+		"durabilityForDiamondShovel": 1561,
+		"durabilityForDiamondPickaxe": 1561,
+		"durabilityForDiamondAxe": 1561,
+		"durabilityForDiamondHoe": 1561,
+		"unbreakableDiamondSword": false,
+		"unbreakableDiamondShovel": false,
+		"unbreakableDiamondPickaxe": false,
+		"unbreakableDiamondAxe": false,
+		"unbreakableDiamondHoe": false
+	},
+	// Default: 2031
+	"ToolsNetherite": {
+		"durabilityForNetheriteSword": 2250,
+		"durabilityForNetheriteShovel": 2250,
+		"durabilityForNetheritePickaxe": 2250,
+		"durabilityForNetheriteAxe": 2250,
+		"durabilityForNetheriteHoe": 2250,
+		"unbreakableNetheriteSword": false,
+		"unbreakableNetheriteShovel": false,
+		"unbreakableNetheritePickaxe": false,
+		"unbreakableNetheriteAxe": false,
+		"unbreakableNetheriteHoe": false
+	},
+	"ToolsOther": {
+		// Default: 250
+		"durabilityForTrident": 250,
+		// Default: 500
+		"durabilityForMace": 500,
+		// Default: 384
+		"durabilityForBow": 384,
+		// Default: 465
+		"durabilityForCrossbow": 465,
+		// Default: 336
+		"durabilityForShield": 190,
+		// Default: 64
+		"durabilityForFishingRod": 32,
+		// Default: 64
+		"durabilityForFlintAndSteel": 64,
+		// Default: 238
+		"durabilityForShears": 238,
+		// Default: 64
+		"durabilityForBrush": 64,
+		"unbreakableTrident": false,
+		"unbreakableMace": false,
+		"unbreakableBow": false,
+		"unbreakableCrossbow": false,
+		"unbreakableShield": false,
+		"unbreakableFishingRod": false,
+		"unbreakableFlintAndSteel": false,
+		"unbreakableShears": false,
+		"unbreakableBrush": false
+	},
+	"ArmorLeather": {
+		// Default: 55
+		"durabilityForLeatherHelmet": 55,
+		// Default: 80
+		"durabilityForLeatherChestplate": 80,
+		// Default: 75
+		"durabilityForLeatherLeggings": 75,
+		// Default: 65
+		"durabilityForLeatherBoots": 65,
+		"unbreakableLeatherHelmet": false,
+		"unbreakableLeatherChestplate": false,
+		"unbreakableLeatherLeggings": false,
+		"unbreakableLeatherBoots": false
+	},
+	"ArmorChainmail": {
+		// Default: 165
+		"durabilityForChainmailHelmet": 165,
+		// Default: 240
+		"durabilityForChainmailChestplate": 240,
+		// Default: 225
+		"durabilityForChainmailLeggings": 225,
+		// Default: 195
+		"durabilityForChainmailBoots": 195,
+		"unbreakableChainmailHelmet": false,
+		"unbreakableChainmailChestplate": false,
+		"unbreakableChainmailLeggings": false,
+		"unbreakableChainmailBoots": false
+	},
+	"ArmorIron": {
+		// Default: 165
+		"durabilityForIronHelmet": 165,
+		// Default: 240
+		"durabilityForIronChestplate": 240,
+		// Default: 225
+		"durabilityForIronLeggings": 225,
+		// Default: 195
+		"durabilityForIronBoots": 195,
+		"unbreakableIronHelmet": false,
+		"unbreakableIronChestplate": false,
+		"unbreakableIronLeggings": false,
+		"unbreakableIronBoots": false
+	},
+	"ArmorGolden": {
+		// Default: 77
+		"durabilityForGoldenHelmet": 77,
+		// Default: 112
+		"durabilityForGoldenChestplate": 112,
+		// Default: 105
+		"durabilityForGoldenLeggings": 105,
+		// Default: 91
+		"durabilityForGoldenBoots": 91,
+		"unbreakableGoldenHelmet": false,
+		"unbreakableGoldenChestplate": false,
+		"unbreakableGoldenLeggings": false,
+		"unbreakableGoldenBoots": false
+	},
+	"ArmorDiamond": {
+		// Default: 363
+		"durabilityForDiamondHelmet": 363,
+		// Default: 528
+		"durabilityForDiamondChestplate": 528,
+		// Default: 495
+		"durabilityForDiamondLeggings": 495,
+		// Default: 429
+		"durabilityForDiamondBoots": 429,
+		"unbreakableDiamondHelmet": false,
+		"unbreakableDiamondChestplate": false,
+		"unbreakableDiamondLeggings": false,
+		"unbreakableDiamondBoots": false
+	},
+	"ArmorNetherite": {
+		// Default: 407
+		"durabilityForNetheriteHelmet": 407,
+		// Default: 592
+		"durabilityForNetheriteChestplate": 592,
+		// Default: 555
+		"durabilityForNetheriteLeggings": 555,
+		// Default: 481
+		"durabilityForNetheriteBoots": 481,
+		"unbreakableNetheriteHelmet": false,
+		"unbreakableNetheriteChestplate": false,
+		"unbreakableNetheriteLeggings": false,
+		"unbreakableNetheriteBoots": false
+	},
+	"ArmorOther": {
+		// Default: 275
+		"durabilityForTurtleHelmet": 275,
+		// Default: 432
+		"durabilityForElytra": 432,
+		// Default: 64
+		"durabilityForWolfArmor": 64,
+		"unbreakableTurtleHelmet": false,
+		"unbreakableElytra": false,
+		// If enabled lets your wolf become invincible
+		"unbreakableWolfArmor": false
+	},
+	"advancedNetherite": {
+		"enableAdvancedNetherite": true,
+		// Default: 2281
+		"netheriteIronTools": {
+			"durabilityForNetheriteIronSword": 2281,
+			"durabilityForNetheriteIronShovel": 2281,
+			"durabilityForNetheriteIronPickaxe": 2281,
+			"durabilityForNetheriteIronAxe": 2281,
+			"durabilityForNetheriteIronHoe": 2281,
+			"unbreakableNetheriteIronSword": false,
+			"unbreakableNetheriteIronShovel": false,
+			"unbreakableNetheriteIronPickaxe": false,
+			"unbreakableNetheriteIronAxe": false,
+			"unbreakableNetheriteIronHoe": false
+		},
+		// Default: 2313
+		"netheriteGoldTools": {
+			"durabilityForNetheriteGoldSword": 2313,
+			"durabilityForNetheriteGoldShovel": 2313,
+			"durabilityForNetheriteGoldPickaxe": 2313,
+			"durabilityForNetheriteGoldAxe": 2313,
+			"durabilityForNetheriteGoldHoe": 2313,
+			"unbreakableNetheriteGoldSword": false,
+			"unbreakableNetheriteGoldShovel": false,
+			"unbreakableNetheriteGoldPickaxe": false,
+			"unbreakableNetheriteGoldAxe": false,
+			"unbreakableNetheriteGoldHoe": false
+		},
+		// Default: 2651
+		"netheriteEmeraldTools": {
+			"durabilityForNetheriteEmeraldSword": 2651,
+			"durabilityForNetheriteEmeraldShovel": 2651,
+			"durabilityForNetheriteEmeraldPickaxe": 2651,
+			"durabilityForNetheriteEmeraldAxe": 2651,
+			"durabilityForNetheriteEmeraldHoe": 2651,
+			"unbreakableNetheriteEmeraldSword": false,
+			"unbreakableNetheriteEmeraldShovel": false,
+			"unbreakableNetheriteEmeraldPickaxe": false,
+			"unbreakableNetheriteEmeraldAxe": false,
+			"unbreakableNetheriteEmeraldHoe": false
+		},
+		// Default: 3092
+		"netheriteDiamondTools": {
+			"durabilityForNetheriteDiamondSword": 3092,
+			"durabilityForNetheriteDiamondShovel": 3092,
+			"durabilityForNetheriteDiamondPickaxe": 3092,
+			"durabilityForNetheriteDiamondAxe": 3092,
+			"durabilityForNetheriteDiamondHoe": 3092,
+			"unbreakableNetheriteDiamondSword": false,
+			"unbreakableNetheriteDiamondShovel": false,
+			"unbreakableNetheriteDiamondPickaxe": false,
+			"unbreakableNetheriteDiamondAxe": false,
+			"unbreakableNetheriteDiamondHoe": false
+		},
+		"netheriteIronArmor": {
+			// Default: 429
+			"durabilityForNetheriteIronHelmet": 429,
+			// Default: 624
+			"durabilityForNetheriteIronChestplate": 624,
+			// Default: 585
+			"durabilityForNetheriteIronLeggings": 585,
+			// Default: 507
+			"durabilityForNetheriteIronBoots": 507,
+			"unbreakableNetheriteIronHelmet": false,
+			"unbreakableNetheriteIronChestplate": false,
+			"unbreakableNetheriteIronLeggings": false,
+			"unbreakableNetheriteIronBoots": false
+		},
+		"netheriteGoldArmor": {
+			// Default: 451
+			"durabilityForNetheriteGoldHelmet": 451,
+			// Default: 656
+			"durabilityForNetheriteGoldChestplate": 656,
+			// Default: 615
+			"durabilityForNetheriteGoldLeggings": 615,
+			// Default: 533
+			"durabilityForNetheriteGoldBoots": 533,
+			"unbreakableNetheriteGoldHelmet": false,
+			"unbreakableNetheriteGoldChestplate": false,
+			"unbreakableNetheriteGoldLeggings": false,
+			"unbreakableNetheriteGoldBoots": false
+		},
+		"netheriteEmeraldArmor": {
+			// Default: 473
+			"durabilityForNetheriteEmeraldHelmet": 473,
+			// Default: 688
+			"durabilityForNetheriteEmeraldChestplate": 688,
+			// Default: 645
+			"durabilityForNetheriteEmeraldLeggings": 645,
+			// Default: 559
+			"durabilityForNetheriteEmeraldBoots": 559,
+			"unbreakableNetheriteEmeraldHelmet": false,
+			"unbreakableNetheriteEmeraldChestplate": false,
+			"unbreakableNetheriteEmeraldLeggings": false,
+			"unbreakableNetheriteEmeraldBoots": false
+		},
+		"netheriteDiamondArmor": {
+			// Default: 517
+			"durabilityForNetheriteDiamondHelmet": 517,
+			// Default: 752
+			"durabilityForNetheriteDiamondChestplate": 752,
+			// Default: 705
+			"durabilityForNetheriteDiamondLeggings": 705,
+			// Default: 611
+			"durabilityForNetheriteDiamondBoots": 611,
+			"unbreakableNetheriteDiamondHelmet": false,
+			"unbreakableNetheriteDiamondChestplate": false,
+			"unbreakableNetheriteDiamondLeggings": false,
+			"unbreakableNetheriteDiamondBoots": false
+		}
+	},
+	"farmersDelight": {
+		"enableFarmersDelight": true,
+		// Default: 131
+		"durabilityForFlintKnife": 131,
+		// Default: 190
+		"durabilityForCopperKnife": 190,
+		// Default: 250
+		"durabilityForIronKnife": 250,
+		// Default: 32
+		"durabilityForGoldenKnife": 32,
+		// Default: 1561
+		"durabilityForDiamondKnife": 1561,
+		// Default: 2031
+		"durabilityForNetheriteKnife": 2031,
+		"unbreakableFlintKnife": false,
+		"unbreakableCopperKnife": false,
+		"unbreakableIronKnife": false,
+		"unbreakableGoldenKnife": false,
+		"unbreakableDiamondKnife": false,
+		"unbreakableNetheriteKnife": false
+	},
+	"illagerInvasion": {
+		"enableIllagerInvasion": true,
+		// Default: 327
+		"durabilityForPlatinumInfusedHatchet": 327,
+		"unbreakablePlatinumInfusedHatchet": false
+	},
+	"lateGamePlus": {
+		"enableLateGamePlus": true,
+		// Default: 500
+		"durabilityForNetheriteBow": 500,
+		// Default: 700
+		"durabilityForNetheriteCrossbow": 700,
+		// Default: 648
+		"durabilityForNetheriteElytra": 648,
+		// Default: 256
+		"durabilityForNetheriteFishingRod": 256,
+		// Default: 128
+		"durabilityForNetheriteWolfArmor": 128,
+		"unbreakableNetheriteBow": false,
+		"unbreakableNetheriteCrossbow": false,
+		"unbreakableNetheriteElytra": false,
+		"unbreakableNetheriteFishingRod": false,
+		"unbreakableNetheriteWolfArmor": false
+	},
+	"moreDelight": {
+		"enableMoreDelight": true,
+		// Default: 59
+		"durabilityForWoodenKnife": 59,
+		// Default: 131
+		"durabilityForStoneKnife": 131,
+		"unbreakableWoodenKnife": false,
+		"unbreakableStoneKnife": false
+	},
+	"netheriteExtras": {
+		"enableNetheriteExtras": true,
+		// Default: 128
+		"durabilityForNetheriteWolfArmor": 128,
+		"unbreakableNetheriteWolfArmor": false
+	},
+	"toughAsNails": {
+		"enableToughAsNails": true,
+		// Default: 55
+		"durabilityForLeafHelmet": 55,
+		// Default: 80
+		"durabilityForLeafChestplate": 80,
+		// Default: 75
+		"durabilityForLeafLeggings": 75,
+		// Default: 65
+		"durabilityForLeafBoots": 65,
+		"unbreakableLeafHelmet": false,
+		"unbreakableLeafChestplate": false,
+		"unbreakableLeafLeggings": false,
+		"unbreakableLeafBoots": false,
+		// Default: 55
+		"durabilityForWoolHelmet": 55,
+		// Default: 80
+		"durabilityForWoolChestplate": 80,
+		// Default: 75
+		"durabilityForWoolLeggings": 75,
+		// Default: 65
+		"durabilityForWoolBoots": 65,
+		"unbreakableWoolHelmet": false,
+		"unbreakableWoolChestplate": false,
+		"unbreakableWoolLeggings": false,
+		"unbreakableWoolBoots": false,
+		// Default: 5
+		"durabilityForLeatherCanteen": 5,
+		// Default: 6
+		"durabilityForCopperCanteen": 6,
+		// Default: 7
+		"durabilityForIronCanteen": 7,
+		// Default: 10
+		"durabilityForGoldCanteen": 10,
+		// Default: 15
+		"durabilityForDiamondCanteen": 15,
+		// Default: 25
+		"durabilityForNetheriteCanteen": 25,
+		"unbreakableLeatherCanteen": false,
+		"unbreakableCopperCanteen": false,
+		"unbreakableIronCanteen": false,
+		"unbreakableGoldCanteen": false,
+		"unbreakableDiamondCanteen": false,
+		"unbreakableNetheriteCanteen": false
+	},
+	"waystones": {
+		"enableWaystones": true,
+		// Default: 128
+		"durabilityForWarpStone": 128,
+		"unbreakableWarpStone": false
+	}
+}

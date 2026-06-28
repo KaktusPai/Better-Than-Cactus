@@ -1,0 +1,24 @@
+{
+  "type": "bwt:soul_forge_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "btwr:diamond_ingot"
+    }
+  },
+  "pattern": [
+    "XXXX",
+    "XGDX",
+    "XDGX",
+    "XXXX"
+  ],
+  "result": {
+    "id": "minecraft:netherite_ingot"
+  }
+}

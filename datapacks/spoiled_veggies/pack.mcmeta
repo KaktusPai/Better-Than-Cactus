@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Berries (7%), carrots (4%) and raw potato (3%) have a chance of poisoning and causing nausea to the player",
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 48
+    }
+  }
+}

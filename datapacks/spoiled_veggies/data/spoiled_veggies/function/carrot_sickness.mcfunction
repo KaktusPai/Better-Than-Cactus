@@ -1,0 +1,2 @@
+execute if predicate spoiled_veggies:carrot_sickness_chance run function spoiled_veggies:apply_sickness_effects
+advancement revoke @s only spoiled_veggies:eat_carrot

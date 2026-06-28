@@ -1,0 +1,139 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips: a spread factor can be a decimal number (such as 1.5)
+  //       a spread factor of 1 means all structure's placements are not modified (useful if you want to use only custom spread factors)
+  //       a spread factor above 1 means all structures are rarer
+  //       a spread factor below 1 means all structures are more common
+  //       a spread factor of 0 disables all structures entirely
+  "spreadFactor": 1.8,
+
+  // Some structure mods/datapacks do not specify a custom salt or use the same salt for all their structures, which might cause structure overlap.
+  // Enabling this is supposed to reduce this phenomenon, as all structure sets will have their own salt, hashed from their id.
+  // If unsure, leave this enabled.
+  "idBasedSalt": true,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    {
+      "structure": "minecraft:mansion",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:swamp_hut",
+      "factor": 1
+    },
+    {
+      "structure": "illagerinvasion:firecaller_hut",
+      "factor": 0.87
+    },
+    {
+      "structure": "illagerinvasion:illager_fort",
+      "factor": 0.75
+    },
+    {
+      "structure": "illagerinvasion:illusioner_tower",
+      "factor": 0.9
+    },
+    {
+      "structure": "illagerinvasion:labyrinth",
+      "factor": 1
+    },
+    {
+      "structure": "illagerinvasion:sorcerer_hut",
+      "factor": 0.9
+    },
+    {
+      "structure": "minecraft:ocean_monument",
+      "factor": 2.8
+    },
+    {
+      "structure": "minecraft:shipwreck",
+      "factor": 1.3
+    },
+    {
+      "structure": "minecraft:buried_treasure",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:mineshaft",
+      "factor": 1.3
+    },
+    {
+      "structure": "minecraft:mineshaft_mesa",
+      "factor": 1.3
+    },
+    {
+      "structure": "minecraft:ancient_city",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:trail_ruins",
+      "factor": 1.3
+    },
+    {
+      "structure": "minecraft:ruined_portal",
+      "factor": 3.4
+    },
+    {
+      "structure": "minecraft:ruined_portal_desert",
+      "factor": 3.4
+    },
+    {
+      "structure": "minecraft:ruined_portal_jungle",
+      "factor": 3.4
+    },
+    {
+      "structure": "minecraft:ruined_portal_mountain",
+      "factor": 3.4
+    },
+    {
+      "structure": "minecraft:ruined_portal_ocean",
+      "factor": 3.4
+    },
+    {
+      "structure": "minecraft:ruined_portal_swamp",
+      "factor": 3.4
+    },
+    {
+      "structure": "minecraft:ruined_portal_nether",
+      "factor": 3.4
+    },
+    {
+      "structure": "minecraft:nether_fortress",
+      "factor": 1.2
+    },
+    {
+      "structure": "minecraft:bastion_remnant",
+      "factor": 1.2
+    },
+    {
+      "structure": "minecraft:nether_fossil",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:end_city",
+      "factor": 1
+    },
+    {
+      "structure": "minecraft:stronghold",
+      "factor": 1
+    }
+    // add the structures you want to modify in the format:
+    // (don't forget to remove "//", and use dots for decimal numbers)
+    //
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    //
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example: "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip: you can dump all structure sets in a file by running the custom command /dumpstructuresets
+    // tip: the same spread factors rules apply here (set to 0 to disable said structure)
+  ]
+}

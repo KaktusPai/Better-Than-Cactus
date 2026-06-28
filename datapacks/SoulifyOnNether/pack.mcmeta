@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "description": "Disable the soulified datapacks on spawn, enable on nether enter."
+    }
+}

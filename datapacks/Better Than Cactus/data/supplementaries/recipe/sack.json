@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "qbq",
+    "q q",
+    "qqq"
+  ],
+  "key": {
+    "q": {
+      "item": "supplementaries:flax"
+    },
+    "b": {
+      "tag": "btc:string_materials"
+    }
+  },
+  "result": {
+    "id": "supplementaries:sack"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Soulified Vanilla - Souls-like difficulty for vanilla Minecraft entities. Every mob is a boss fight.",
+    "pack_format": 48,
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 48
+    }
+  }
+}

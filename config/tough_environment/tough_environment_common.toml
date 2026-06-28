@@ -1,0 +1,13 @@
+# Makes most blocks take longer to break overall
+# Default: true
+hcPlayerMiningSpeed = true
+
+# Stratification toughness disallows breaking of tougher stones/ores with lower-tier pickaxes
+# Default: true
+stratificationToughness = true
+
+# Highly discourages breaking of stone type 'strata' blocks which you don't have the correct tool for.
+# This also includes other stone-like blocks like Obsidian, etc..
+# Default: true
+strataBasedBlockBreakingRestrictions = true
+

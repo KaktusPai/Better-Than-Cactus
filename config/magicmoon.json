@@ -1,0 +1,10 @@
+{
+  "magic_moon": {
+    "custom_model": {
+      "desc1:": "大于等于4； startDay greater than or equal to 4 ",
+      "startDay": 4,
+      "desc2:": "大于等于2；perDay greater than or equal to 2 ",
+      "perDay": 2
+    }
+  }
+}

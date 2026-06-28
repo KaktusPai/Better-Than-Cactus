@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "s",
+    "s"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:air"
+    }
+  },
+  "result": {
+    "id": "minecraft:birch_planks",
+    "count": 1
+  }
+}

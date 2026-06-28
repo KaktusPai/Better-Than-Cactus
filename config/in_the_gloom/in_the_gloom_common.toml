@@ -1,0 +1,12 @@
+# Enable Gloom effects in The Overworld
+# Default: true
+overworldGloom = true
+
+# Enable Gloom effects in The Nether
+# Default: false
+theNetherGloom = false
+
+# Enable Gloom effects in The End
+# Default: false
+theEndGloom = false
+

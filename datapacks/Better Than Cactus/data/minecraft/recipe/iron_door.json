@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ss",
+    "ss",
+    "ss"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_door",
+    "count": 1
+  }
+}

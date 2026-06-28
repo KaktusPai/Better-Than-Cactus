@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "eat_berry": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:golden_carrot"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "heal_golden_carrots:heal_golden_carrot"
+  }
+}
